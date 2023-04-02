@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Poppins&display=swap');
+body{
+    background-color: #ceedea;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+nav{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #abe1dd ;
+    z-index: 1;
+    padding: 0 2%;
+}
+nav .profile{
+    display: flex;
+    align-items: center;
+}
+nav .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav .profile h1 {
+    font-size: 15px;
+    margin-left: 10px;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.5em;
+    
+}
+    
+nav ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #abe1dd;
+}  
+nav ul li:hover{
+    border-bottom: 1px solid black;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.page-content{
+    margin: 4%;
+    padding: 0 2%;
+}
+.page-content header{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    
+}
+.page-content header h2{
+    font-size: 3vw;
+    max-width: 80%;
+    line-height: 50px;
+}
+.page-content header p{
+    line-height: 30px;
+    color: #5f5f63;
+    max-width: 80%;
+    font-size: 1.1em;
+}
+.page-content  header button{
+    background-color: black;
+    color: #ceedea;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: large;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1%;
+    margin-top: 20px;
+}
+.page-content button:hover{
+    color: white;
+}
+.page-content header #photo{ 
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.page-content header #photo2{ 
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+.page-content .contenu #Logo_espagnol{ 
+    display: flex;
+    width: 50%;
+    height: 50%;
+    text-align:center;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.page-content .contenu #video_espagnol{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.page-content .contenu .annonce_media{
+    text-align: center;
+}
+.page-content ul{
+    list-style-type: none;
+    font-size: 1.2em; 
+    margin-top: 50px; 
+}
+.page-content ul li {
+    padding: 1%;
+}
+.maj {
+    font-size: 2em;
+}
+.page-content #photo_formation{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+.page-content #titre_formation{
+    text-align: center;
+    margin-top: 30px;
+}
+.page-content .contenu button{
+    background-color: black;
+    color: #ceedea;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: large;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1%;
+    margin-top: 20px;
+}
+.page-content .programmes{
+    display: flex;
+    width: 60%;
+    height: 60%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 0 2%;
+    margin-top: 30px;
+}
+.page-content .programmes_pac_square{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 0 2%;
+    margin-top: 30px;
+}
+.page-content .contenu #devoxx{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 960px;
+    height: 540px;
+}
+
+.galery{
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    justify-content: center;
+    grid-gap: 15px;
+    margin-top: 100px;
+    padding: 0 2%;
+}
+.galery img {
+    width: 375px;
+    height: 250px;
+    filter: blur(0px);
+}
+
+.MesProjets{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 100px;
+}
+
+.ProjetTitre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: auto;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 2;
+    position: absolute;
+    height: 250px;
+    width: 375px;
+    opacity: 0;
+    transition: opacity .5s;
+    background: #5dc5bb8a;
+    color: white;
+}
+.Projet:hover .ProjetTitre{
+    opacity: 1;
+}
+.Projet:hover img {
+    filter: blur(2px);
+  }
+footer{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #abe1dd;
+}
+footer h2{
+    padding: 0 2%;
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0 2%;
+}
+footer li img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    cursor: pointer; 
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Sudoku et 2048</title>
+        <link href="acceuil_portfolio_style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" class="profile">
+                <img src="Images/profile_photo.jpg" alt="Ma photo de profile"/>
+                <h1>Jeanne Grenet</h1>
+            </a>
+            <ul>
+                <a href="/index.html#galery">
+                    <li>Mes projets</li>
+                </a>
+                <a href="certifications.html">
+                    <li>Mes certifications</li>
+                </a>
+                <a href="CV_Jeanne.pdf" target="_blank">
+                    <li>Mon CV</li>
+                </a>
+                <a href="https://lagazettedelapopculture.wordpress.com" target="_blank">
+                    <li>Mon blog</li>
+                </a>
+            </ul>
+        </nav>
+        <section class="page-content">
+            <header>
+                <div class="Accueil">
+                    <p>Mars 2023</p>
+                    <h2>Conception d’un solutionneur de Sudoku et 2048</h2>
+                    <p>Programmes pour résoudre des Sudoku et des 2048 pour un cours sur l’intelligence artificielle.
+                    </br>Vous pourrez retrouver les codes sources sur mon Github.
+                    </p>
+                </div>
+                <img src="Images/Sudoku.png" alt="Sudoku résolu" id="photo"/>
+            </header>
+            <div class="contenu">
+                <h2>Objectif :</h2>
+                <p>Dans le cadre d’un cours de découverte de l’intelligence artificielle, j’ai réalisé un programme capable de résoudre un sudoku.
+                    J'ai également concu un programme capable de jouer au 2048 grâce à la méthode Monte-Carlo.
+                </p>
+                <h2>Réalisation :</h2>
+                <p>L’intégralité des programmes sont codés en langage Python. 
+                    Le Sudoku est composé de plusieurs modules : le premier qui contient toutes les fonctions utiles à la résolution (placer un chiffre dans la grille, vérifier que le chiffre peut être placé dans une case donnée…), 
+                    le second contient la résolution en elle-même avec l’utilisation de toutes ces fonctions. Pour toutes les fonctions mises en œuvre, des tests unitaires sont réalisés pour vérifier que le programme répond aux attentes.
+                </br>
+                </br>Pour le 2048, la méthode Monte-Carlo consiste à simuler un certains nombre de parties pour chaque position de la grille.
+                    Le programme choisi ensuite le déplacement le plus pertinant en fonction du résultat des simulations jusqu'à obtenir le bloc 2048.</p>
+                <h2 class="annonce_media">Voici des captures d'écran des résultats des deux programmes :</h2>
+                <div class="programmes">
+                    <img src="Images/Sudoku_resultat.png" alt="Resultat Sudoku" class="programmes"/>
+                    <img src="Images/coming_soon.jpg" alt="Resultat 2048" class="programmes"/>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h2>Restons en contact ! </h2>
+            <ul>
+                <a href="mailto:jeanne.grenet@gmail.com" target="_blank">
+                    <li><img src="Images/email.png" alt="" title="Logo Email"/></li>
+                </a>
+                <a href="https://www.linkedin.com/in/jeanne-grenet/" target="_blank">
+                    <li><img src="Images/linkedin.png" alt="" title="Logo linkedin"></li>
+                </a>
+                <a href="https://github.com/JeanneGrenet" target="_blank">
+                    <li><img src="Images/github.png" alt="" title="Logo github"></li>
+                </a>
+
+            </ul>
+
+         </footer>
+    </body>
+</html> 
