@@ -13,7 +13,7 @@ nav{
     position: sticky;
     top: 0;
     background-color: #abe1dd ;
-    z-index: 1;
+    z-index: 999;
     padding: 0 2%;
 }
 nav .profile{
@@ -215,7 +215,7 @@ nav ul a{
     font-weight: bold;
     text-decoration: none;
     z-index: 2;
-    position: absolute;
+    position:absolute;
     height: 250px;
     width: 375px;
     opacity: 0;
