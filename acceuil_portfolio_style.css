@@ -184,14 +184,14 @@ nav ul a{
 }
 
 .galery{
-    max-width: 1300px;
+    max-width: 80%;
     width: 80%;
     height: auto;
     margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     justify-content: center;
-    grid-gap: 15px;
+    grid-gap: 5%;
     margin-top: 100px;
     padding: 0 2%;
 }
@@ -235,6 +235,7 @@ footer{
     justify-content: space-between;
     align-items: center; 
     background-color: #abe1dd;
+    margin-top: 100px;
 }
 footer h2{
     padding: 0 2%;
